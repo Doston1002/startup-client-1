@@ -149,10 +149,10 @@ export const trustedCompeny = [
 ];
 
 export const language = [
-	{ nativeLng: 'English', lng: 'en', icon: EngIcons },
 	{ nativeLng: "O'zbek", lng: 'uz', icon: UzbIcons },
-	{ nativeLng: 'Türkçe', lng: 'tr', icon: TurkIcon },
 	{ nativeLng: 'Русский', lng: 'ru', icon: RusIcons },
+	{ nativeLng: 'English', lng: 'en', icon: EngIcons },
+	{ nativeLng: 'Türkçe', lng: 'tr', icon: TurkIcon },
 ];
 
 export const howItWorks = [
@@ -183,9 +183,9 @@ export const coursesFilter = [
 		title: 'filter_language_title',
 		id: 'language',
 		categoryList: [
-			{ name: 'filter_language_item_1', id: 'en' },
+			{ name: 'filter_language_item_1', id: 'uz' },
 			{ name: 'filter_language_item_2', id: 'ru' },
-			{ name: 'filter_language_item_3', id: 'uz' },
+			{ name: 'filter_language_item_3', id: 'en' },
 			{ name: 'filter_language_item_4', id: 'tr' },
 		],
 	},
